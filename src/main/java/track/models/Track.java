@@ -14,12 +14,13 @@ public class Track {
     private String genre;
 
     private TrackFeature features;
-    private List<Artist> artists;
-    private List<Album> albums;
-    private List<Playlist> playlists;
+    @Singular private List<Artist> artists;
+    @Singular private List<Album> albums;
+    @Singular private List<Playlist> playlists;
 
-    @Builder
-    public Track(@NonNull String name, @NonNull TrackFeature features, @NonNull List<Artist> artists) {
+    @Builder(toBuilder = true)
+    public Track(@NonNull Integer id, @NonNull String name, @NonNull TrackFeature features, @NonNull List<Artist> artists) {
+        this.id = id;
         this.name = name;
         this.features = features;
         this.artists = artists;
