@@ -1,25 +1,15 @@
 package track.repository;
 
+
+import org.springframework.data.repository.PagingAndSortingRepository;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
 import track.models.Track;
 
-import java.util.HashMap;
+import java.util.List;
+
 
 @Repository
-public class TrackRepository {
-
-
-    public static HashMap<Integer, Track> data = new HashMap<>();
-    public static Integer trackID = 0;
-
-    public void save(Integer id, Track track){
-        data.put(id, track);
-        trackID += 1;
-    }
-
-    public void delete(Integer id){
-        data.remove(id);
-    }
-
+public interface TrackRepository extends PagingAndSortingRepository<Track, Integer> {
 
 }

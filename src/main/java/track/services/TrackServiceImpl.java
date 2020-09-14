@@ -2,19 +2,26 @@ package track.services;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
+
 import track.dtos.TrackDTO;
 import track.models.Track;
 import track.repository.TrackRepository;
 
 import java.util.Collection;
+import java.util.List;
 
 @Service
 public class TrackServiceImpl implements TrackService {
 
     @Autowired
-    public TrackRepository trackRepository;
+    private TrackRepository trackRepository;
 
+//    @Autowired
+//    public TrackServiceImpl(TrackRepository trackRepository){
+//        this.trackRepository = trackRepository;
+//    }
 
     @Override
     public Track create(TrackDTO trackDTO) {
@@ -22,23 +29,23 @@ public class TrackServiceImpl implements TrackService {
         Track track = Track.builder()
                 .name(trackDTO.getName())
                 .features(trackDTO.getFeatures())
-                .artists(trackDTO.getArtists())
-                .id(trackRepository.trackID).build();
+                .artists(trackDTO.getArtists()).build();
 
-
-        trackRepository.save(trackRepository.trackID, track);
+        trackRepository.save(track);
         return track;
     }
 
     @Override
     public Track update(Integer id, TrackDTO trackDTO) {
 
-        Track track = trackRepository.data.get(id).toBuilder()
+        Track track = trackRepository.findById(id).get().toBuilder()
                 .name(trackDTO.getName())
                 .features(trackDTO.getFeatures())
-                .artists(trackDTO.getArtists()).build();
+                .artists(trackDTO.getArtists())
+                .albums(trackDTO.getAlbums())
+                .playlists(trackDTO.getPlaylists()).build();
 
-        trackRepository.save(trackRepository.trackID, track);
+        trackRepository.save(track);
 
         return track;
     }
@@ -46,15 +53,20 @@ public class TrackServiceImpl implements TrackService {
     @Override
     public void delete(Integer id) {
 
-        trackRepository.delete(id);
+        trackRepository.deleteById(id);
+
     }
 
     @Override
     public Track getItem(Integer id) {
-        return trackRepository.data.get(id);
+        return trackRepository.findById(id).get();
     }
+
     @Override
-    public Collection<Track> getItems() {
-        return trackRepository.data.values();
+    public List<Track> getItems(Pageable pageable) {
+        return (List<Track>) trackRepository.findAll(pageable);
     }
+
+
+
 }

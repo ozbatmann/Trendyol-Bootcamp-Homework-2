@@ -1,5 +1,20 @@
 
-Y
-java:S1854"9Remove this useless assignment to local variable "track".(É×ßşÿÿÿÿ8ËŸŒ¦È.
-J
-java:S1481"*Remove this unused "track" local variable.(É×ßşÿÿÿÿ8ËŸŒ¦È.
+V
+java:S3655Q"9Call "pageOffset.isPresent()" before accessing the value.(Ç¬êÃ8÷…¬êÈ.
+S
+java:S1128"1Remove this unused import 'java.util.Collection'.(¹ÉĞšùÿÿÿÿ8÷…¬êÈ.
+Q
+java:S37406"/Provide the parametrized type for this generic.(º¬áúÿÿÿÿ8÷…¬êÈ.
+a
+java:S2583L"DChange this condition so that it does not always evaluate to "false"(Áî¾ö8÷…¬êÈ.
+{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(âşèüÿÿÿÿ8÷…¬êÈ.
+L
+java:S3740."/Provide the parametrized type for this generic.(¤Ê¨ƒ8÷…¬êÈ.
+T
+java:S3655Q"7Call "pageSize.isPresent()" before accessing the value.(Ç¬êÃ8÷…¬êÈ.
+L
+java:S3740F"/Provide the parametrized type for this generic.(‡¦‹8÷…¬êÈ.
+L
+java:S3740#"/Provide the parametrized type for this generic.(ïêÉ8÷…¬êÈ.
+Q
+java:S3740>"/Provide the parametrized type for this generic.(ê…ÅÕùÿÿÿÿ8÷…¬êÈ.

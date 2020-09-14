@@ -1,15 +1,3 @@
 
-F
-java:S1068"&Remove this unused "id" private field.(â¼°Ñûÿÿÿÿ8“¢´ÃÈ.
-C
-java:S1068"(Remove this unused "name" private field.(Ë¥¼8“¢´ÃÈ.
-D
-java:S1068")Remove this unused "genre" private field.(ÓÃÊÁ8“¢´ÃÈ.
-G
-java:S1068",Remove this unused "features" private field.(ÿ½8“¢´ÃÈ.
-K
-java:S1068"+Remove this unused "artists" private field.(³íÖºşÿÿÿÿ8“¢´ÃÈ.
-E
-java:S1068"*Remove this unused "albums" private field.(Ùÿ”¯8“¢´ÃÈ.
-H
-java:S1068"-Remove this unused "playlists" private field.(÷ÂŠ°8“¢´ÃÈ.
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8›€›éÈ.

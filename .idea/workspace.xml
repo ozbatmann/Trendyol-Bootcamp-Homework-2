@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bbfe957-944f-4aa1-8681-3b1c309ac78c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/0/00cd9e58b1b0847c6555b81891da23252fa12bbc" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/0/00cd9e58b1b0847c6555b81891da23252fa12bbc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/4/240ae55948ba794e2d8428f5cdaf36a1e71a4a08" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/4/240ae55948ba794e2d8428f5cdaf36a1e71a4a08" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/7/27fd26e4e00778bd346c89661ebe163d2f7ae377" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/7/27fd26e4e00778bd346c89661ebe163d2f7ae377" afterDir="false" />
@@ -11,11 +10,21 @@
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/b/8b3ff3c5b7fbd90a8dc158bdd73cc4a49bac12ed" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/b/8b3ff3c5b7fbd90a8dc158bdd73cc4a49bac12ed" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/d/9d2024d7ce213f0c0550a9b027fb7e645483459c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/d/9d2024d7ce213f0c0550a9b027fb7e645483459c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/9/f9a7bba6d5eeb0ce123062fad54c77ac4e3f6c5f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/9/f9a7bba6d5eeb0ce123062fad54c77ac4e3f6c5f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/track/TrackApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/track/TrackApiApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/track/controllers/TrackController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/track/controllers/TrackController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/track/dtos/TrackDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/track/dtos/TrackDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/track/models/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/track/models/Album.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/track/models/Artist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/track/models/Artist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/track/models/Image.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/track/models/Image.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/track/models/Playlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/track/models/Playlist.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/track/models/Track.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/track/models/Track.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/track/models/TrackFeature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/track/models/TrackFeature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/track/repository/TrackRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/track/repository/TrackRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/track/services/TrackService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/track/services/TrackService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/track-api.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/track/services/TrackServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/track/services/TrackServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/track/TrackApiApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/track/TrackApiApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/track/controllers/TrackController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/track/controllers/TrackController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/track/dtos/TrackDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/track/dtos/TrackDTO.class" afterDir="false" />
@@ -27,6 +36,8 @@
       <change beforePath="$PROJECT_DIR$/target/classes/track/models/Track.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/track/models/Track.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/track/models/TrackFeature.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/track/models/TrackFeature.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/track/services/TrackService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/track/services/TrackService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/track-api-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/track-api-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,11 +74,19 @@
       <recent name="controllers" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TrackApiApplication (1)">
-    <configuration name="TrackApiApplication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8.0_241" />
+  <component name="RunManager">
+    <configuration name="TrackApiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.TrackApiApplication" />
+      <module name="track-api" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrackApiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="14" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="track.TrackApiApplication" />
+      <module name="Trendyol-Bootcamp-Homework-2" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="track.*" />
@@ -78,16 +97,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrackApiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.TrackApiApplication" />
-      <module name="track-api" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TrackApiApplication (1)" />
+        <item itemvalue="Application.TrackApiApplication" />
         <item itemvalue="Application.TrackApiApplication" />
       </list>
     </recent_temporary>
@@ -110,14 +122,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Auto_Import/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600019374025" />
-    <state x="677" y="178" key="#TrackApiApplication_(1)" timestamp="1600019738506">
+    <state x="677" y="178" key="#TrackApiApplication_(1)" timestamp="1600094029840">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="677" y="178" key="#TrackApiApplication_(1)/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600019738506" />
-    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1600018758427">
+    <state x="677" y="178" key="#TrackApiApplication_(1)/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600094029840" />
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600101920143">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600018758427" />
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600101920143" />
+    <state x="688" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600099914832">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="688" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600099914832" />
+    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1600102061332">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600102061332" />
     <state x="703" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1599955562270">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -126,22 +146,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="756" y="379" width="407" height="289" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599955494744" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1600019667277">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1600107710281">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600019667277" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1600019667276">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600107710281" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1600107710280">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600019667276" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1600019667276">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600107710280" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1600107710280">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600019667276" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1600019667277">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600107710280" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1600107710281">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600019667277" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600107710281" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1599955906241">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -166,9 +186,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599952827625" />
-    <state x="655" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1600018273107">
+    <state x="655" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1600100159321">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="655" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600018273107" />
+    <state x="655" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600100159321" />
+    <state x="731" y="238" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1600097855591">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="731" y="238" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600097855591" />
   </component>
 </project>
